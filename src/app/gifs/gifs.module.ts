@@ -5,6 +5,8 @@ import { GifPageComponent } from "./gifs-page/gifs-page.component";
 import { BusquedaComponent } from "./busqueda/busqueda.component";
 import { ResultadosComponent } from "./resultados/resultados.component";
 
+import { GifsService } from "./services/gifs-service.service";
+
 @NgModule({
     declarations:[
         GifPageComponent,
@@ -20,7 +22,7 @@ import { ResultadosComponent } from "./resultados/resultados.component";
         ResultadosComponent
     ],
     providers:[
-
+        GifsService
     ]
 })
 

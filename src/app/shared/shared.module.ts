@@ -1,6 +1,8 @@
 import { CommonModule } from "@angular/common";
 import {NgModule} from "@angular/core";
 
+import { GifsService } from "../gifs/services/gifs-service.service";
+
 import { SidebarComponent } from "./sidebar/sidebar.component";
 
 
@@ -15,7 +17,7 @@ import { SidebarComponent } from "./sidebar/sidebar.component";
         SidebarComponent
     ],
     providers:[
-
+        GifsService
     ]
 })
 
